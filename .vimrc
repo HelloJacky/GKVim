@@ -245,3 +245,5 @@ set confirm
 set mouse=a
 set selection=exclusive
 set selectmode=mouse,key
+" 设置vim-markdown支持Jekyll的yaml类型文件
+let g:vim_markdown_frontmatter=1
