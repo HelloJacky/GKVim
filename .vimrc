@@ -55,7 +55,8 @@ set iskeyword+=_,$,@,%,#,-  " 带有如下符号的单词不要被换行分割
 " 自动缩进
 set autoindent
 set cindent
-set backspace=indent,eol,start "插入模式下delete健可删除
+set backspace=indent,eol,start " 插入模式下delete健可删除
+set paste                      " 允许粘贴文本
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " 显示相关
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
